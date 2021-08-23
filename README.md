@@ -16,10 +16,26 @@ download [link](https://www.google.com)
 ### Preprocessing
 ### Main Method
 
+## Setting
+
+1. このrepositoryをcloneする．
+2. [GoogleDrive](https://www.google.com)からdata, resultsをダウンロードする．
+3. このrepositoryのcurrent directoryへdataとresultsを移動する．
+
+
 ## Usage
 
 ### preprocessing
-- 
+
+1. cifti_gradient.sh
+2. smooth.sh
+3. sep_gradien_cap3000.sh
+
+```sh
+bash cifti_gradient.sh
+bash smooth.sh
+bash sep_gradien_cap3000.sh
+```
 
 ## Requirements
 
