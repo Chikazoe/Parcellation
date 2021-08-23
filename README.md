@@ -1,13 +1,14 @@
 # Parcellation
 
-[提案手法名](https://www.zoelabo.com/english-home)
+[提案手法名](https://www.zoelabo.com/english-home)  
 
 ## Overview
 
 
-![Ours results](images/ours.png "Ours results")
-ours parcellation results(画像は仮で置いています．)
-download [link]()
+![Ours results](images/ours.png "Ours results")  
+ours parcellation results(画像は仮で置いています．)  
+download [link](https://www.google.com)  
+
 ## Method
 
 ### Preprocessing
