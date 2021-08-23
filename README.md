@@ -2,8 +2,9 @@
 私たちの手法でのParcellation手法について
 
 ## Overview
-画像
-data
+
+
+[Ours results](images/ours.png)
 
 ## Method
 
@@ -13,7 +14,7 @@ data
 ## Usage
 
 ### preprocessing
-
+- 
 
 ## Requirements
 
