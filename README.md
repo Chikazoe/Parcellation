@@ -4,7 +4,7 @@
 ## Overview
 
 
-[Ours results](images/ours.png)
+![Ours results](images/ours.png)
 
 ## Method
 
