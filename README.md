@@ -55,6 +55,23 @@ directory structure
         └── gradient_smooth_3000cap.dscalar.nii
 ```
 
+## Data
+
+```
+./data
+```
+
+- Preproc  
+    target_run1_all.dscalar.nii
+- SurfFiles  
+    S1200.L.midthickness_MSMAll.32k_fs_LR.surf.gii  
+    S1200.R.midthickness_MSMAll.32k_fs_LR.surf.gii  
+- Gordon_Data  
+    node_neighbors.txt  
+    medial_wall.L.32k_fs_LR.func.gii  
+    medial_wall.R.32k_fs_LR.func.gii  
+    L.atlasroi_erode3.32k_fs_LR.shape.gii  
+    R.atlasroi_erode3.32k_fs_LR.shape.gii  
 
 ## Usage
 
