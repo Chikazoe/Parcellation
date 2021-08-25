@@ -130,7 +130,7 @@ color mapping into Gordon
 - compare_distance_coord.m
 
 save sample results (TH=0.5)
-
+ours_label_mapped_from_gordon_32k_nonmask.dlabel.nii
 
 ## Requirements
 
