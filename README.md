@@ -1,6 +1,6 @@
 # Parcellation
 
-[提案手法名](https://www.zoelabo.com/english-home)  
+[proposal method's name](https://www.zoelabo.com/english-home)  
 
 ## Overview
 
@@ -139,5 +139,8 @@ save sample results (TH=0.5)
 - wb_command (Version: 1.2.3)
 
 ## Reference
+- gordon papers url
+- glasser papers url
 - [workbench-command](https://www.humanconnectome.org/software/workbench-command)
 - [BARSA](https://balsa.wustl.edu/file/show/976Nr)
+- [cifti matlab](https://github.com/Washington-University/cifti-matlab)
