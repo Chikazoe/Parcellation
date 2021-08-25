@@ -97,8 +97,10 @@ bash sep_gradien_cap3000.sh
 ./code/ours-parcellation-method
 ```
 
-1. run_surface_parcellation.m
-2. run_parcel_creator.m
+1. run_surface_parcellation.m  
+    get L and R labels.mat, labels_avg.mat and results.mat  
+2. run_parcel_creator.m  
+    get L and R each threshold func.gii  (th = 0-1)
 
 ## Requirements
 
