@@ -14,7 +14,10 @@ download [link](https://www.google.com)
 ## Method
 
 ### Preprocessing
+CAP3000のdataに対して，cifti-gradientを行う．　　
 ### Main Method
+surface parcellation(watershed algorithm)適用後の結果に対して，
+閾値を0から1の間(step=0.1)で変動させて，parcellationを行う．
 
 ## Setting
 
