@@ -28,6 +28,6 @@ for i=181:360
    ROI_181_360_labels(indeies) = i;
 end
 
-save_path = '../../results/glassor';
+save_path = '../../results/parcellation/glassor';
 save([save_path, '/ROI_1_180_labels'], 'ROI_1_180_labels')
 save([save_path, '/ROI_181_360_labels'], 'ROI_181_360_labels')
