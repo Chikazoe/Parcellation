@@ -25,38 +25,6 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
 2. [GoogleDrive](https://www.google.com)からdata, resultsをダウンロードする．
 3. このrepositoryのcurrent directoryへdataとresultsを移動する．
 
-### directory structure
-
-```sh
-tree -L 3
-```
-
-```sh
-.
-├── code
-│   └── preproc
-│       ├── cifti_gradient.sh
-│       ├── sep_gradien_cap3000.sh
-│       └── smooth.sh
-├── data
-│   ├── Preproc
-│   │   └── target_run1_all.dscalar.nii
-│   └── SurfFiles
-│       ├── S1200.L.midthickness_MSMAll.32k_fs_LR.surf.gii
-│       └── S1200.R.midthickness_MSMAll.32k_fs_LR.surf.gii
-├── images
-│   └── ours.png
-├── README.md
-└── results
-    ├── cifti_gradient
-    │   └── gradient_3000cap.dscalar.nii
-    ├── separated
-    │   ├── l_gradient_smooth_3000cap.func.gii
-    │   └── r_gradient_smooth_3000cap.func.gii
-    └── smooth
-        └── gradient_smooth_3000cap.dscalar.nii
-```
-
 ## Data
 
 ```
