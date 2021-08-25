@@ -60,15 +60,29 @@ directory structure
 
 ### preprocessing
 
+```
+./code/preproc
+```
+
 1. cifti_gradient.sh
 2. smooth.sh
 3. sep_gradien_cap3000.sh
+4. gifti2mat.m
 
 ```sh
 bash cifti_gradient.sh
 bash smooth.sh
 bash sep_gradien_cap3000.sh
 ```
+
+### ours-parcellation-method
+
+```
+./code/ours-parcellation-method
+```
+
+1. run_surface_parcellation.m
+2. run_parcel_creator.m
 
 ## Requirements
 
