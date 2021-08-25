@@ -102,6 +102,36 @@ bash sep_gradien_cap3000.sh
 2. run_parcel_creator.m  
     get L and R each threshold func.gii  (th = 0-1)
 
+### summary
+
+```
+./code/summary
+```
+
+- create_glassor_roi.m
+- create_gordon_roi.m
+- create_ours_roi_L.m
+- create_ours_roi_R.m
+
+### visualization
+
+```
+./code/visualization
+```
+
+reformat label num to coordinate.
+
+- ours_lable2coord.m
+- gordon_label2coord.m
+
+color mapping into Gordon
+
+- find_Correspondence_labels.m
+- compare_distance_coord.m
+
+save sample results (TH=0.5)
+
+
 ## Requirements
 
 - Ubuntu (18.04.5 LTS)
@@ -110,3 +140,4 @@ bash sep_gradien_cap3000.sh
 
 ## Reference
 - [workbench-command](https://www.humanconnectome.org/software/workbench-command)
+- [BARSA](https://balsa.wustl.edu/file/show/976Nr)
