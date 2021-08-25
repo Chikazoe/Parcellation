@@ -22,12 +22,11 @@ download [link](https://www.google.com)
 2. [GoogleDrive](https://www.google.com)からdata, resultsをダウンロードする．
 3. このrepositoryのcurrent directoryへdataとresultsを移動する．
 
+### directory structure
 
 ```sh
 tree -L 3
 ```
-
-directory structure
 
 ```sh
 .
