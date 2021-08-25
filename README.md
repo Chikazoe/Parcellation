@@ -127,9 +127,10 @@ reformat label num to coordinate.
 color mapping into Gordon
 
 - find_Correspondence_labels.m
-- compare_distance_coord.m
+    - compare_distance_coord.m
 
-save sample results (TH=0.5)
+save sample results (TH=0.5)  
+save_ours_roi_data_dlabels.m  
 ours_label_mapped_from_gordon_32k_nonmask.dlabel.nii
 
 ## Requirements
