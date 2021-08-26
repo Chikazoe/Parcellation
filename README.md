@@ -29,6 +29,8 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
 ./data
 ```
 
+- Glassar
+    ROI.mat
 - Preproc  
     target_run1_all.dscalar.nii
 - SurfFiles  
@@ -40,7 +42,8 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
     medial_wall.R.32k_fs_LR.func.gii  
     L.atlasroi_erode3.32k_fs_LR.shape.gii  
     R.atlasroi_erode3.32k_fs_LR.shape.gii  
-
+    Gordon333.32k_fs_LR.dlabel.nii
+    
 ## Usage
 
 ### preprocessing
