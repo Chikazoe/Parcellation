@@ -111,8 +111,8 @@ ours_label_mapped_from_gordon_32k_nonmask.dlabel.nii
 - wb_command (Version: 1.2.3)
 
 ## Reference
-- gordon papers url
-- glasser papers url
+- [gordon papers url](https://academic.oup.com/cercor/article/26/1/288/2367115)
+- [gordon data and code](https://sites.wustl.edu/petersenschlaggarlab/files/2018/06/Gordon2016Surface_parcellation_distribute-20agwt4.zip)
 - [workbench-command](https://www.humanconnectome.org/software/workbench-command)
 - [BARSA](https://balsa.wustl.edu/file/show/976Nr)
 - [cifti matlab](https://github.com/Washington-University/cifti-matlab)
