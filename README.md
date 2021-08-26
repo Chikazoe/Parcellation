@@ -7,9 +7,7 @@
 
 ![Ours results](images/ours.png "Ours results")  
 Ours parcellation results  
-(画像は仮で置いています．)  
 download [link](https://www.google.com)  
-(現在はGoogle.comへ飛ぶようにしています)  
 
 ## Method
 
