@@ -7,9 +7,7 @@
 
 ![Ours results](images/ours.png "Ours results")  
 Ours parcellation results  
-(画像は仮で置いています．)  
 download [link](https://www.google.com)  
-(現在はGoogle.comへ飛ぶようにしています)  
 
 ## Method
 
@@ -31,6 +29,8 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
 ./data
 ```
 
+- Glassar
+    ROI.mat
 - Preproc  
     target_run1_all.dscalar.nii
 - SurfFiles  
@@ -42,7 +42,8 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
     medial_wall.R.32k_fs_LR.func.gii  
     L.atlasroi_erode3.32k_fs_LR.shape.gii  
     R.atlasroi_erode3.32k_fs_LR.shape.gii  
-
+    Gordon333.32k_fs_LR.dlabel.nii
+    
 ## Usage
 
 ### preprocessing
@@ -111,8 +112,8 @@ ours_label_mapped_from_gordon_32k_nonmask.dlabel.nii
 - wb_command (Version: 1.2.3)
 
 ## Reference
-- gordon papers url
-- glasser papers url
+- [gordon papers url](https://academic.oup.com/cercor/article/26/1/288/2367115)
+- [gordon data and code](https://sites.wustl.edu/petersenschlaggarlab/files/2018/06/Gordon2016Surface_parcellation_distribute-20agwt4.zip)
 - [workbench-command](https://www.humanconnectome.org/software/workbench-command)
 - [BARSA](https://balsa.wustl.edu/file/show/976Nr)
 - [cifti matlab](https://github.com/Washington-University/cifti-matlab)
