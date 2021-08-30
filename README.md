@@ -6,14 +6,15 @@
 
 
 ![Our results](images/ours.png "Our results")  
-Our parcellation results  
+Our parcellation results (threshold = 0.5)  
 download [link](https://drive.google.com/drive/folders/1sl6Ny0WXPdQggUVoxCwfm2aEK5tBTCI8?usp=sharing)  
 
 ## Method
 The parcellation procedure was the same as [Gordon et al., 2016] (https://academic.oup.com/cercor/article/26/1/288/2367115). Instead of employing functional connectivity matrix (correlation matrix across voxels), we employed coactivation patterns which repeatedly appeared during rest ([Liu and Duyn 2013](https://www.pnas.org/content/110/11/4392)). 
 ### Preprocessing
-We first extracted 3000 coactivation patterns from S1200 HCP dataset. For each of coactivation patterns, we calculated gradient map using cifti-gradient function.　　
+We first extracted 3000 coactivation patterns from S1200 HCP dataset. For each of coactivation patterns, we calculated gradient map using cifti-gradient function. The obtained gradient maps are spatially smoothed (surface kernel =2.55 mm). 
 ### Main Method
+Based on Gordon et al., 2016, 
 surface parcellation(watershed algorithm)適用後の結果に対して，
 閾値を0から1の間(step=0.1)で変動させて，parcellationを行う．
 
@@ -30,7 +31,7 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
 ```
 
 - Glassar
-    ROI.mat
+    ROI.mat (This file is just used for the template of ROI file)
 - Preproc  
     target_run1_all.dscalar.nii
 - SurfFiles  
