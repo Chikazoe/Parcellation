@@ -1,4 +1,4 @@
-# Parcellation
+# Parcellation based on coactivation patterns (CAPs)
 
 [proposal method's name](https://www.zoelabo.com/english-home)  
 
@@ -7,7 +7,7 @@
 
 ![Ours results](images/ours.png "Ours results")  
 Ours parcellation results  
-download [link](https://www.google.com)  
+download [link](https://drive.google.com/drive/folders/1sl6Ny0WXPdQggUVoxCwfm2aEK5tBTCI8?usp=sharing)  
 
 ## Method
 
