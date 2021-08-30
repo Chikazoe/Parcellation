@@ -5,12 +5,12 @@
 ## Overview
 
 
-![Ours results](images/ours.png "Ours results")  
-Ours parcellation results  
+![Our results](images/ours.png "Our results")  
+Our parcellation results  
 download [link](https://drive.google.com/drive/folders/1sl6Ny0WXPdQggUVoxCwfm2aEK5tBTCI8?usp=sharing)  
 
 ## Method
-
+The parcellation procedure was the same as Gordon et al., 2016 (https://academic.oup.com/cercor/article/26/1/288/2367115).
 ### Preprocessing
 CAP3000のdataに対して，cifti-gradientを行う．　　
 ### Main Method
