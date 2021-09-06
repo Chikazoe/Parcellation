@@ -17,7 +17,7 @@ We first extracted 3000 coactivation patterns from S1200 HCP dataset. For each o
 ### Main Method
 
 Based on [Gordon et al., 2016](https://academic.oup.com/cercor/article/26/1/288/2367115),  
-watershed algorithm was employed to identify boundaries in the gradient maps. These boundary maps from 3000 coactivation patterns were averaged to indicate the frequency with which a give vertex was identifeid as a boundary.
+watershed algorithm was employed to identify boundaries in the gradient maps. These boundary maps from 3000 coactivation patterns were averaged to indicate the frequency with which a given vertex was identified as a boundary. The boundary threshold is an important hyperparameter. We chose threshold = 0.5 as it provides the most similar results to Gordon et al., 2016. Reflecting the difference between connectivity maps and coactivation patterns, distinct parcellation results were obtained. We are examining whether the new parcellation outperforms the conventional one in the classification of gender, diseases, and intelligence.
 
 ## Setting
 
