@@ -17,14 +17,13 @@ We first extracted 3000 coactivation patterns from S1200 HCP dataset. For each o
 ### Main Method
 
 Based on [Gordon et al., 2016](https://academic.oup.com/cercor/article/26/1/288/2367115),  
-surface parcellation(watershed algorithm)適用後の結果に対して，
-閾値を0から1の間(step=0.1)で変動させて，parcellationを行う．
+watershed algorithm was employed to identify boundaries in the gradient maps. These boundary maps from 3000 coactivation patterns were averaged to indicate the frequency with which a give vertex was identifeid as a boundary.
 
 ## Setting
 
-1. このrepositoryをcloneする．
-2. [GoogleDrive](https://drive.google.com/drive/folders/1sl6Ny0WXPdQggUVoxCwfm2aEK5tBTCI8?usp=sharing)からdata, resultsをダウンロードする．
-3. このrepositoryのcurrent directoryへdataとresultsを移動する．
+1. Clone this repository.
+2. Dowonload the data and results from [GoogleDrive](https://drive.google.com/drive/folders/1sl6Ny0WXPdQggUVoxCwfm2aEK5tBTCI8?usp=sharing)．
+3. Move the data and results to the currenct directory of this repository．
 
 ## Data
 
@@ -33,7 +32,7 @@ surface parcellation(watershed algorithm)適用後の結果に対して，
 ```
 
 - Glassar
-    ROI.mat (This file is just used for the template of ROI file)
+    ROI.mat (This file is just used for the template of the ROI file)
 - Preproc  
     target_run1_all.dscalar.nii
 - SurfFiles  
